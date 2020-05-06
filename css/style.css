@@ -1,8 +1,8 @@
-/* main text color #212121 */
+/* primary text color #212121 */
 
 /* secondary color #757575 */
 
-/* Hero, advantages, section H2 what we do, footer <p>, adress only <p>, social links when :hover - #FFFFFF */
+/* third-text-color: Hero, advantages, section H2 what we do, footer <p>, adress only <p>, social links when :hover - #FFFFFF */
 
 /* link color #2196F3 */
 
@@ -10,6 +10,113 @@
 
 /* 2020 | Developed by GoIT Students - rgba(255, 255, 255, 0.4); */
 
+/* bcg логотипов с раздела преимущества #F5F4FA; */
+
 :root{
-    
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --third-text-color: #FFFFFF;
+    --link-color: #2196F3;
+}
+
+/* Логотип */
+.first-name{
+    color: var(--link-color);
+}
+
+.secondary-name{
+    color: var(--primary-text-color)
+}
+
+/* Верхняя панель перехода по ссылкам внутри сайта */
+.header-nav .title{
+    color: var(--primary-text-color);
+}
+
+/* Верхняя панель отправки мейла и телефонного звонка */
+.header-nav .link{
+    color: var(--secondary-text-color);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus{
+    color: var(--link-color);
+}
+
+/* Заглавие сайта - HERO */
+.hero{
+    color: var(--third-text-color);
+}
+
+.hero .link{
+    background-color: var(--link-color);
+    color: inherit;
+}
+
+/* Преимущества */
+.advantages .title{
+    color: var(--primary-text-color);
+}
+
+.advantages .description{
+    color: var(--secondary-text-color);
+}
+
+.advantages img{
+    background-color: #F5F4FA;
+}
+
+.advantages img:hover,
+.advantages img:focus{
+    background-color: var(--link-color);
+}
+
+/* Чем мы занимаемся */
+.title-section{
+    color: var(--primary-text-color);
+}
+
+.benefit .capabilities{
+    color: var(--third-text-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* Наша команда */
+.team .title{
+    color: var(--primary-text-color);
+}
+
+.team p{
+    color: var(--secondary-text-color);
+}
+
+/* Наша команда в соц.сетях */
+.social-links img:hover,
+.social-links img:focus{
+    background-color: var(--link-color);
+}
+
+.partners img:hover,
+.partners img:focus{
+    background-color: var(--link-color);
+}
+
+.contacts .first-name{
+    color: var(--link-color);
+}
+
+.contacts .secondary-name{
+    color: var(--third-text-color);
+}
+
+.contacts > p{
+    color: var(--third-text-color);
+}
+
+.contacts a{
+    color: var(--secondary-text-color);
+}
+
+.developers{
+    color: rgba(255, 255, 255, 0.4);
 }
