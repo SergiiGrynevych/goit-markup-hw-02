@@ -124,3 +124,21 @@
 .developers{
     color: rgba(255, 255, 255, 0.4);
 }
+
+.resources a{
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+}
+
+.resources a:hover,
+.resources a:focus{
+    color: var(--third-text-color);
+}
+
+.portfolio h3{
+    color: var(--primary-text-color);
+}
+
+.portfolio p{
+    color: var(--secondary-text-color);
+}
