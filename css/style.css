@@ -29,17 +29,21 @@
 }
 
 /* Верхняя панель перехода по ссылкам внутри сайта */
-.header-nav .title{
+.nav-link .title{
     color: var(--primary-text-color);
 }
 
 /* Верхняя панель отправки мейла и телефонного звонка */
-.header-nav .link{
+.nav-contacts .link{
     color: var(--secondary-text-color);
 }
 
-.header-nav .link:hover,
-.header-nav .link:focus{
+.nav-link .title.current{
+    color: var(--link-color);
+}
+
+.nav-contacts .link:hover,
+.nav-contacts .link:focus{
     color: var(--link-color);
 }
 
