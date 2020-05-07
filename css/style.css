@@ -20,14 +20,26 @@
 }
 
 /* Логотип */
-.first-name{
+.nav .first-name{
     color: var(--link-color);
-    font-family: 'Raleway', sans-serif ;
+    font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 
-.last-name{
+.nav .last-name{
     color: var(--primary-text-color);
     font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 
 /* Верхняя панель перехода по ссылкам внутри сайта */
@@ -87,8 +99,8 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -190,11 +202,23 @@
 .contacts .first-name{
     color: var(--link-color);
     font-style: normal;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
 }
 
 .contacts .last-name{
     color: var(--third-text-color);
     font-style: normal;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
 }
 
 .contacts > p{
@@ -242,6 +266,13 @@
 .resources a{
     background-color: #F5F4FA;
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .resources a:hover,
@@ -255,4 +286,20 @@
 
 .portfolio p{
     color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.portfolio .description{
+    color: var(--third-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
 }
