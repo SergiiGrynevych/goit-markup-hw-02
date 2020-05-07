@@ -17,13 +17,21 @@
     --secondary-text-color: #757575;
     --third-text-color: #FFFFFF;
     --link-color: #2196F3;
+    --developers-color: rgba(255, 255, 255, 0.4);
+    --resources-portfolio-color: #F5F4FA;
+}
+
+body{
+    color: var(--primary-text-color);
+    background-color: var(--third-text-color);
+    font-family: Roboto, sans-serif;
 }
 
 /* Логотип */
-.nav .first-name{
+.nav .first-name,
+.nav .last-name{
     color: var(--link-color);
-    font-family: 'Raleway', sans-serif;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -33,19 +41,11 @@
 
 .nav .last-name{
     color: var(--primary-text-color);
-    font-family: 'Raleway', sans-serif;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
 }
 
 /* Верхняя панель перехода по ссылкам внутри сайта */
 .nav-link .title{
-    color: var(--primary-text-color);
-    font-family: Roboto;
+    color: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -61,7 +61,6 @@
 /* Верхняя панель отправки мейла и телефонного звонка */
 .nav-contacts .link{
     color: var(--secondary-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -81,7 +80,6 @@
 /* Заглавие сайта - HERO */
 .hero .title{
     color: var(--third-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -94,7 +92,6 @@
 .hero .link{
     background-color: var(--link-color);
     color: var(--third-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -106,13 +103,8 @@
 }
 
 /* Преимущества */
-.advantages .title{
-    color: var(--primary-text-color);
-}
-
 .advantages .description{
     color: var(--secondary-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -125,7 +117,6 @@
 }
 
 .advantages .title{
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -141,8 +132,6 @@
 
 /* Чем мы занимаемся */
 .title-section{
-    color: var(--primary-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -153,7 +142,6 @@
 
 .benefit .capabilities{
     color: var(--third-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -167,8 +155,6 @@
 
 /* Наша команда */
 .team .title{
-    color: var(--primary-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -179,7 +165,6 @@
 
 .team p{
     color: var(--secondary-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -199,7 +184,8 @@
     background-color: var(--link-color);
 }
 
-.contacts .first-name{
+.contacts .first-name,
+.contacts .last-name{
     color: var(--link-color);
     font-style: normal;
     font-family: Raleway;
@@ -212,19 +198,11 @@
 
 .contacts .last-name{
     color: var(--third-text-color);
-    font-style: normal;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
 }
 
 .contacts > p{
     color: var(--third-text-color);
     font-style: normal;
-    font-family: Roboto;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -233,7 +211,6 @@
 
 .contacts a{
     color: var(--secondary-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -243,30 +220,27 @@
 
 .join{
     color: var(--third-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .developers{
-    color: rgba(255, 255, 255, 0.4);
-    font-family: Roboto;
+    color: var(--developers-color);
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 2;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .resources a{
-    background-color: #F5F4FA;
-    color: var(--primary-text-color);
-    font-family: Roboto;
+    background-color: var(--resources-portfolio-color);
+    color: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -279,27 +253,24 @@
 .resources a:focus{
     color: var(--third-text-color);
 }
-
-.portfolio h3{
+.portfolio h2{
     color: var(--primary-text-color);
 }
 
-.portfolio p{
-    color: var(--secondary-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-}
-
-.portfolio .description{
+.portfolio .text{
     color: var(--third-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+.portfolio p{
+    color: var(--secondary-text-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
     letter-spacing: 0.03em;
 }
