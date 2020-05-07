@@ -44,7 +44,6 @@ li {
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-
 }
 
 .nav .last-name{
@@ -190,7 +189,7 @@ li {
 .contacts .last-name{
     color: var(--link-color);
     font-style: normal;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
