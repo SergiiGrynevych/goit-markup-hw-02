@@ -22,23 +22,42 @@
 /* Логотип */
 .first-name{
     color: var(--link-color);
+    font-family: 'Raleway', sans-serif ;
 }
 
-.secondary-name{
-    color: var(--primary-text-color)
+.last-name{
+    color: var(--primary-text-color);
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Верхняя панель перехода по ссылкам внутри сайта */
 .nav-link .title{
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-link .title:hover,
+.nav-link .title:focus{
+    color: var(--link-color);
 }
 
 /* Верхняя панель отправки мейла и телефонного звонка */
 .nav-contacts .link{
     color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
-.nav-link .title.current{
+.nav-link .current{
     color: var(--link-color);
 }
 
@@ -48,13 +67,30 @@
 }
 
 /* Заглавие сайта - HERO */
-.hero{
+.hero .title{
     color: var(--third-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero .link{
     background-color: var(--link-color);
-    color: inherit;
+    color: var(--third-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Преимущества */
@@ -64,10 +100,26 @@
 
 .advantages .description{
     color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .advantages img{
     background-color: #F5F4FA;
+}
+
+.advantages .title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .advantages img:hover,
@@ -78,20 +130,50 @@
 /* Чем мы занимаемся */
 .title-section{
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .benefit .capabilities{
     color: var(--third-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     background-color: rgba(47, 48, 58, 0.8);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* Наша команда */
 .team .title{
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team p{
     color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Наша команда в соц.сетях */
@@ -107,22 +189,54 @@
 
 .contacts .first-name{
     color: var(--link-color);
+    font-style: normal;
 }
 
-.contacts .secondary-name{
+.contacts .last-name{
     color: var(--third-text-color);
+    font-style: normal;
 }
 
 .contacts > p{
     color: var(--third-text-color);
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .contacts a{
     color: var(--secondary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.join{
+    color: var(--third-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .developers{
     color: rgba(255, 255, 255, 0.4);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .resources a{
