@@ -149,6 +149,10 @@ li {
     border-radius: 0px 0px 4px 4px;
 }
 
+.team{
+    background-color: var(--resources-portfolio-color);
+}
+
 /* Наша команда */
 .team .title{
     font-weight: 500;
