@@ -222,17 +222,18 @@ span.last-name{
     text-align: center;
 }
 
-.resources a{
+.resources button{
     background-color: var(--resources-portfolio-color);
     color: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    border: none;
 }
 
-.resources a:hover,
-.resources a:focus{
+.resources button:hover,
+.resources button:focus{
     color: var(--third-text-color);
 }
 .portfolio h2{
