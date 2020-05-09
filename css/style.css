@@ -223,12 +223,14 @@ span.last-name{
 }
 
 .resources button{
-    background-color: var(--resources-portfolio-color);
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
-    border: none;
+    letter-spacing: 0.03em;
+    border: 0px;
 }
 
 .resources button:hover,
