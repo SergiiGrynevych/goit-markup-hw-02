@@ -257,3 +257,12 @@ letter-spacing: 0.06em;
     font-size: 16px;
     line-height: 1.86;
 }
+
+footer{
+    background-color: #2F303A;;
+}
+
+footer .join-photo:hover,
+footer .join-photo:focus{
+    background-color: var(--link-color);
+}
